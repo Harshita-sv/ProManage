@@ -1,0 +1,344 @@
+.promanage-wrap {
+    background: #F8FAFC;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.promanage-title {
+    color: #1E293B;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Dashboard Header */
+.promanage-dashboard-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.promanage-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.promanage-stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.promanage-stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.promanage-stat-card h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4F46E5;
+    margin: 0 0 8px 0;
+}
+
+.promanage-stat-card p {
+    color: #64748B;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Chart Container */
+.promanage-chart-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+    text-align: center;
+}
+
+.promanage-chart-container h3 {
+    margin-bottom: 20px;
+    color: #1E293B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Filters */
+.promanage-filters {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+    margin-bottom: 30px;
+}
+
+.promanage-filters h3 {
+    margin-bottom: 20px;
+    color: #1E293B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.promanage-filter-row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.promanage-filter-row select {
+    padding: 8px 12px;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    min-width: 150px;
+}
+
+/* Buttons */
+.promanage-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.promanage-btn-primary {
+    background: #4F46E5;
+    color: white;
+}
+
+.promanage-btn-primary:hover {
+    background: #3B32C7;
+    transform: translateY(-1px);
+}
+
+.promanage-btn-sm {
+    padding: 4px 8px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* Projects Container */
+.promanage-projects-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+}
+
+.promanage-projects-container h3 {
+    margin-bottom: 25px;
+    color: #1E293B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Project Cards */
+.promanage-project-card {
+    background: #F8FAFC;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+.promanage-project-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.promanage-project-title {
+    color: #1E293B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.promanage-project-description {
+    color: #64748B;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.promanage-project-meta {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #64748B;
+}
+
+/* Task Grid */
+.promanage-tasks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Task Cards */
+.promanage-task-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.promanage-task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.promanage-task-card h4 {
+    color: #1E293B;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.promanage-task-card p {
+    color: #64748B;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.promanage-task-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.promanage-task-meta span {
+    font-size: 12px;
+    color: #64748B;
+}
+
+/* Status Badges */
+.promanage-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.promanage-status-badge.promanage-status-done {
+    background: #DCFCE7;
+    color: #16A34A;
+}
+
+.promanage-status-badge.promanage-status-in_progress {
+    background: #FEF3C7;
+    color: #F59E0B;
+}
+
+.promanage-status-badge.promanage-status-pending {
+    background: #FEE2E2;
+    color: #EF4444;
+}
+
+.promanage-priority-badge.promanage-priority-high {
+    background: #FEE2E2;
+    color: #EF4444;
+}
+
+.promanage-priority-badge.promanage-priority-medium {
+    background: #FEF3C7;
+    color: #F59E0B;
+}
+
+.promanage-priority-badge.promanage-priority-low {
+    background: #DCFCE7;
+    color: #16A34A;
+}
+
+/* Task Actions */
+.promanage-task-actions {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.promanage-update-status {
+    background: #06B6D4;
+    color: white;
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.promanage-update-status:hover {
+    background: #0891B2;
+    transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .promanage-dashboard-header {
+        grid-template-columns: 1fr;
+    }
+    
+    .promanage-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .promanage-filter-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .promanage-filter-row select {
+        min-width: unset;
+    }
+    
+    .promanage-tasks-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Loading States */
+.promanage-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.promanage-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4F46E5;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
